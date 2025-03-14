@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Comeat</string>
+    <string name="lbl_texte">Formulaire</string>
+    <string name="lbl_email">Adresse éléctronique</string>
+    <string name="lbl_mdp">Mot de Passe</string>
+    <string name="btn_connecter">Se Connecter</string>
+    <string name="btn_annuler">Annuler</string>
+</resources>
