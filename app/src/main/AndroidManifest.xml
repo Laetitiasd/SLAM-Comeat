@@ -29,6 +29,8 @@
         <activity android:name=".RechercheRepasActivity"
             tools:ignore="Instantiatable" />
 
+        <activity android:name=".ListeRepasActivity"/>
+
     </application>
 
 </manifest>
