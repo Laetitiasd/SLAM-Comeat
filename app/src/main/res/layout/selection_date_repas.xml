@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="211dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="100dp"
+        android:text="Séléctionner votre repas svp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/select_specialite"
+        android:layout_width="358dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/aff_date"
+        android:layout_width="179dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/date"
+        app:layout_constraintBottom_toTopOf="@+id/select_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_specialite"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/select_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="126dp"
+        android:text="@string/s_lectionner_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aff_date"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="250dp"
+        android:text="@string/valider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_date"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

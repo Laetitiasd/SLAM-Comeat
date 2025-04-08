@@ -5,4 +5,14 @@
     <string name="lbl_mdp">Mot de Passe</string>
     <string name="btn_connecter">Se Connecter</string>
     <string name="btn_annuler">Annuler</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="bienvenue_sur_menurepasactivity">Bienvenue sur MenurepasActivity !</string>
+    <string name="mes_participations">Mes participations</string>
+    <string name="les_repas">Les repas</string>
+    <string name="date">Date :</string>
+    <string name="s_lectionner_date">Sélectionner date</string>
+    <string name="bienvenue_a_la_page_des_repas_venir">Bienvenue a la page des repas à venir</string>
+    <string name="valider">Valider</string>
+
 </resources>
